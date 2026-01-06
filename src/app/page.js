@@ -247,12 +247,13 @@ export default function Home() {
                 </p>
               </Copy>
             </div>
-            <AnimatedButton
+            {/* <AnimatedButton
               label="Discover More"
               route="/studio"
               animateOnScroll={false}
               delay={showPreloader ? 10.3 : 1.15}
-            />
+            /> */}
+             <AnimatedButton label="Discover More" route="/studio" animate={false} />
           </div>
         </div>
         <div className="hero-stats">
@@ -421,7 +422,8 @@ export default function Home() {
                   idea.
                 </h3>
               </Copy>
-              <AnimatedButton label="Explore Gallery" route="blueprints" />
+              {/* <AnimatedButton label="Explore Gallery" route="blueprints" /> */}
+              <AnimatedButton label="Explore Gallery" route="/blueprints" animate={false} />
             </div>
           </div>
         </div>

@@ -48,6 +48,8 @@
 
 .hero .hero-tagline {
   width: 40%;
+  margin: 50px;
+  text-align: center;
   color: var(--base-200);
 }
 
@@ -62,6 +64,7 @@
   display: flex;
   gap: 1rem;
   width: 100%;
+
 }
 
 .hero .hero-stats .stat {
@@ -75,6 +78,7 @@
   backdrop-filter: blur(1rem);
   border-radius: 1rem;
   overflow: hidden;
+
 }
 
 .hero .hero-stats .stat-count,
@@ -86,11 +90,12 @@
   width: 100%;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.05);
+
 }
 
 .hero .hero-stats .stat-info {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 @media (max-width: 1000px) {
@@ -274,7 +279,7 @@
 .gallery-callout .gallery-callout-copy {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .gallery-callout .gallery-callout-col:nth-child(1) {
