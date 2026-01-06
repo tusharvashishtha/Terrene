@@ -4,6 +4,7 @@
   height: 100svh;
   overflow: hidden;
   padding: 1rem;
+
 }
 
 .cta-window .container {
@@ -12,6 +13,7 @@
   border-radius: 2rem;
   overflow: hidden;
   display: flex;
+  padding-bottom: 5rem;
   align-items: flex-end;
 }
 
@@ -34,7 +36,7 @@
 
 .cta-window .cta-window-header {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;

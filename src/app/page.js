@@ -253,7 +253,7 @@ export default function Home() {
               animateOnScroll={false}
               delay={showPreloader ? 10.3 : 1.15}
             /> */}
-             <AnimatedButton label="Discover More" route="/studio" animate={false} />
+             <AnimatedButton label="Discover More" route="/studio" animate={false} delay={showPreloader ? 10.3 : 1.15} />
           </div>
         </div>
         <div className="hero-stats">
